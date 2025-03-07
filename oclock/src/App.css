@@ -1,0 +1,129 @@
+.clock{
+  width: 400px;
+  height: 400px;
+  background-color: #bbbbbb;
+  border: 10px solid #333;
+  border-radius: 50%;
+  position: relative;
+  margin: 4% auto;
+  box-shadow: 0 7px 12px 0px rgba(0, 0, 0, 0.8);
+}
+.centerdot{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background: #333;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  margin: auto;
+  box-shadow: 0 7px 12px 0px rgba(0, 0, 0, 0.8);
+}
+.hour{
+  position: absolute;
+  font-size: 22px;
+  font-weight: bold;
+ 
+}
+.twele{
+  top: 12px;
+  left: 47%;
+}
+.one{
+  top: 11%;
+  left: 72%;
+}
+.two{
+  top: 27%;
+  left: 87%;
+}
+.three{
+  top: 48%;
+  left: 93%;
+}
+.four{
+  top: 70%;
+  left: 85.5%;
+}
+.five{
+  top: 85%;
+  left: 70.5%;
+}
+.six{
+  top: 91%;
+  left: 48.5%;
+}
+.seven{
+  top: 85%;
+  left: 25.5%;
+}
+.eight{
+  top: 70%;
+  left: 10.5%;
+}
+.nine{
+  top: 48%;
+  left: 4.5%;
+}
+.ten{
+  top: 27%;
+  left: 8%;
+}
+.eleven{
+  top: 11%;
+  left: 21%;
+}
+.hour-hand{
+  position: absolute;
+  z-index: 5;
+  width: 4px;
+  height: 60px;
+  background: #333;
+  top: 134px;
+  left: 50%;
+  transform-origin: 80% 65px;
+  margin-left: -1px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.min-hand{
+  position: absolute;
+  z-index: 5;
+  width: 4px;
+  height: 100px;
+  background: #333;
+  top: 100px;
+  left: 50%;
+  transform-origin: 80% 100px;
+  margin-left: -3px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.sec-hand{
+  position: absolute;
+  z-index: 5;
+  width: 4px;
+  height: 110px;
+  background: #ca0505;
+  top: 100px;
+  left: 50%;
+  transform-origin: 80% 100px;
+  margin-left: -3px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.date{
+  font-size: 30px;
+  position: relative;
+  top: 10px;
+  color: #963e4d;
+}
+.mainpage {
+  font-size: 30px;
+  text-align: center;
+  font-family: cursive;
+}
+
